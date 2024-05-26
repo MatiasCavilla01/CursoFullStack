@@ -1,0 +1,93 @@
+<!-- Tablas -->
+<table border="1">
+    <tr>
+        <td>Pais</td>
+        <td>Habitant</td>
+        <td>Moneda</td>
+    </tr>
+    <tr>
+        <td>Arg</td>
+        <td>4300000</td>
+        <td>pesos Arg</td>
+    </tr>
+    
+</table>
+<!-- Diferencia de td con th dentro del tr-->
+<table border="1">
+    <tr>
+        <th>Pais</th>
+        <th>Habitant</th>
+        <th>Moneda</th>
+    </tr>
+    <tr>
+        <td><a href="https://www.google.com/search?gs_ssp=eJzjYtfP1TfISk8xYPTiTCxKT80rycxLBAA-gQZ_&q=argentina&oq=arge&gs_lcrp=EgZjaHJvbWUqCggDEC4YsQMYgAQyBggAEEUYOTIMCAEQIxgnGIAEGIoFMgwIAhAjGCcYgAQYigUyCggDEC4YsQMYgAQyDQgEEAAYgwEYsQMYgAQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgyNTU4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8">Argentina</a></td>
+        <td>4300000</td>
+        <td>pesos Arg</td>
+    </tr>
+</table>
+
+<!-- MULTIMEDIA (musica o videos)-->
+
+<!--Video copiado de youtube opcion "insertar"-->
+<iframe width="560"
+height="315" src="https://www.youtube.com/embed/sfXPGuZ68HM?si=_rM3nfo31GjkcRVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br>
+<!-- video del ordenar-->
+<br>
+<video src="videos/15921892-uhd_3840_2160_50fps.mp4" height="460" width="420" controls></video>
+<!-- se puede poner el atributo controls que va tener un controlador del video o autoplay que lo va a reproducir automaticamente y el atributo loop para que se repita-->
+<video src="videos/15921892-uhd_3840_2160_50fps.mp4" height="460" width="420" autoplay muted loop></video>
+
+<!-- FORMULARIOS-->
+<!-- el atrbuto action es donde se envian los resultados
+label es la etiqueta que va a mostrar el input,
+placeholder explica al usuario q hace el input,maxlenght cantidad maxima de caracteres,minlenght cantidad minima de caracteres,max numero maximo de numero y min numero minimo se puede utilizar en fechas.
+ atributo required hace campo obligatorio-->
+<form action="/resultados.js">
+    <h2>Bienvenidos a mi formulario</h2>
+
+    <label>ingrese su nombre:</label>
+    <input type="text" placeholder="ingrese su nombre" />
+
+    <label >ingrese su edad</label>
+    <input type="number" max="70" min="18">
+
+    <label >fecha nacimiento</label>
+    <input type="date" max="2000-01-02">
+
+    <label >su color</label>
+    <input type="color" maxlength="15" minlength="2">
+
+    <label>su foto</label>
+    <input type="image">
+
+    <label>su mail</label>
+    <input type="email">
+
+    <label>su contraseña</label>
+    <input type="password">
+
+    <label>hace ejercicio?</label>
+    <input type="radio" name="seleccion" value="si">
+    <label>si</label>
+    <input type="radio" name="seleccion" value="no">
+    <label>no</label>
+
+    <label>que gaseosa bebes usualmente?</label>
+    <input type="checkbox" name="cocacola">
+    <label>Coca Cola </label>
+    <input type="checkbox" name="fanta">
+    <label>Fanta </label>
+    <input type="range">
+    <input type="checkbox" name="Sprite">
+    <label>Sprite </label>
+
+    <button>Enviar datos</button>
+</form>
+
+<!-- CANVAS 
+dibujar graficos esquemas-->
+
+<canvas id="micanva" width="200" height="100" style="border: 1px solid red">
+    tu navegador no soporta
+</canvas>

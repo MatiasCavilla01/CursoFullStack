@@ -1,0 +1,37 @@
+/*  ESTOS SON COMENTARIOS para css*/
+/* selectores= selector de etiqueta 
+del html 
+selector de clase = .nomclase{}*/
+
+/* esto llamaria a todas las etiquetas <p> de mi html */
+/*selector de clase*/
+.miestilo{
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    text-transform: lowercase;/*transforma  a minuscula*/
+
+}
+
+p{
+    color: red;
+    font-size: 25px; /* tamaño de fuente*/
+    letter-spacing: 12px;/* espaciado de letras*/
+    text-align:center ;/* aliniacion de texto*/
+    font-family:'Times New Roman', Times, serif ;/* elegir una fuente de las instaladas en nuestra pc*/
+    text-transform: uppercase; /*tranformo el texto a mayuscula*/
+    line-height: 42px; /*espacio entre renglones*/
+    text-decoration:overline;/*linea por encima 
+    underline linea por debajo*/
+
+}
+
+.skills{
+    color: aquamarine;
+    text-shadow:2px 1px red;/*sombreado de texto primer parametro sobrado en eje x , segundo para eje y*/
+}
+
+.centradoTexto{
+    text-align: center;
+}
+
