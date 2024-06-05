@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:#f0f0f0;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    /*cuando los elementos no entran se agrupen abajo*/
+    flex-wrap: wrap;
+}
+
+.gallery-item{
+    flex-grow:1 ;
+    margin: 10px;
+}
+
+.gallery_item img{
+    width: 100%;
+    border-radius: 10px;
+}

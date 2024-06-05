@@ -1,0 +1,35 @@
+etiquetas en bloque --> ocupan toda la linea
+etiquetas en linea --> ocupan una parte de la linea
+
+antes se utlizaban las etiquetas <table><tr> ya NO
+ahora es con css las propiedades: flexbox y grid
+se pueden usar ambas a la vez , recomendable aprender flexbox y despues grid
+todo siempre se aplica al padre de las etiquetas(section , div , nav)
+CSS --> display:flex --> va acomodar las cajas a que queden juntas . EJ=
+<section>
+	<p>hola</p>
+	<p>messi</p>
+</section>
+<--! esto por si solo mostraria cada parrafo uno abajo del otro !-->
+y en el css
+section{
+	display:flex;}
+esto va a mostrar los parrafos juntos (hola messi).
+Flex-direction:row --> deja todo el contenido en la izquiera
+Flex-direction:row-reverse --> todo el contenido en la derecha
+Flex-direction:column --> forma una columna con el contenido del contenedor
+
+(eje X)
+Justyfi-content:center --> todo al centro
+Justyfi-content:flex-star --> deja todo al izquierda
+Justyfi-content:flex-end --> deja todo a la derecha
+Justyfi-content:space-around --> hace separaciones entre cada contenido de igual tamaña al centro
+ y de igual a los costados
+Justyfi-content:space-between --> los extremos pegados y los demas con espacios simetricos
+
+(Eje Y)
+aling-item:flex-star --> todod en el comienzo
+aling-item:flex-end --> todo en la parte inferior
+aling-item:center -->centro eje y
+
+Lo mejor es combinarlos y todas estas propiedades no existen si no aplicamos el display:flex

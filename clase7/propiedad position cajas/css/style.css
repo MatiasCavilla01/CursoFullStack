@@ -1,0 +1,44 @@
+.container{
+    background-color: brown;
+}
+
+div{
+    width: 222px;
+    height: 222px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+/*Este es el que viene por defecto*/
+.static{
+    position: static;
+}
+
+/*podemos moverlo segun su lugar originar*/
+.relative{
+    position: relative;
+    /*habilita las opciones top left right bottom*/
+    left: 68px;
+    top: 35px;
+    font-size: 22px;
+}
+/*Se posiciona respecto a su contenedor y la siguiente caja ocupa su lugar*/
+.absolute{
+    position: absolute;
+    /*hbalita opciones de movimiento como relative*/
+    left: 35px;
+    top: 44px;
+    background-color: blue;
+    font-size: 31px;
+}
+
+/* Acompaña al scroleo de la pagina*/
+.fixed{
+    position: fixed;
+    /* Habilita opciones de movimiento*/
+    top: 1px;
+    right: 1px;
+    background-color: aqua;
+    font-size: 32px;
+
+}

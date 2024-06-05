@@ -1,0 +1,43 @@
+:root{
+    --hero-bg--color: #4a90e2;
+    --hero-text-color: #ffffff;
+}
+
+body{
+    text-align: center;
+}
+
+.hero{
+    background-color: var(--hero-bg--color);
+    color: var(--hero-text-color);
+    padding: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.hero h1{
+    font-size: 30px;
+    margin: 0px 0px 20px ;
+}
+
+.hero p{
+    font-size: 15px;
+    margin: 0 0 20px;
+}
+
+.hero-buttom{
+    background-color: var(--hero-bg--color);
+    text-decoration: none; 
+    border-radius: 5px;
+    padding: 10px 32px;
+    color: var(--hero-text-color);
+    transition:  background-color 1s,color 1s;
+}
+
+.hero-buttom:hover{
+    background-color:var(--hero-text-color);
+    color:var(--hero-bg--color) ;
+}

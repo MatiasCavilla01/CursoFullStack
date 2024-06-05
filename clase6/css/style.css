@@ -1,0 +1,47 @@
+h1{
+    background-color: red;
+    transform: skew(20deg,10deg);
+}
+p{
+    background-color: blue;
+    transform: translate(230px,240px);
+    transform: rotate(45deg);
+}
+
+div{
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.cajas{
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+
+}
+
+.cambiar{
+    transition: color 1s;
+}
+.cambiar:hover{
+    color: yellow;
+}
+
+@keyframes mover {
+    0%{
+        transform: translate(0);
+    }
+    50%{
+        transform: translate(100px);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
+.animacion{
+    width: 100px;
+    height: 130px;
+    background-color: blanchedalmond;
+    animation: mover 3s infinite;
+}

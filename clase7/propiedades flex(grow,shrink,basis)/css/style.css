@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:#f0f0f0;
+}
+
+/* Unidades de MEDIDA  
+
+absolutas: fijas no se adaptan a todos los dispositivos
+px,cm,mm,pt,etc
+
+relativas: son dinamicas y se adaptan a distintos dispositivos moviles
+%,vh,vw,rem,em
+
+tamaños(heigh,widht) usamos % a los section o divs
+
+vh(viupor height) vw(viupor weidht) -->conoce el tamaño de mi pantalla se adapta a ella
+utilizados en contenedores conmunmente en el hero
+
+e,,rem --> p,h1,a,margin,padding
+*/
+
+
+.flex-container{
+    display: flex;
+    width: 80%;
+    background-color: #c0c0c0;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.flex-item{
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    border: 2px solid blue;
+    padding: 20px;
+    margin: 5px;
+}
+
+.item1{
+    /*
+    ocupa el lugar que queda libre*/
+    flex-grow: 1;
+}
+
+.item3{
+    /*
+    achica la caja
+    con width*/
+    flex-shrink: 1;
+    width: 80px;
+}
+
+.item2{
+    /*
+    asigna el tamaño*/
+    flex-basis: 80px;
+}
+
+.item4{
+    /*flex (grow,shrink,basis)*/
+    flex: 1 0 440px;
+}
+/*galeria en grilla
+galeria masonry*/
