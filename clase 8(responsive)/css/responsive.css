@@ -1,0 +1,63 @@
+
+/*Se deben ordenar las consultas 
+medias de mayor a menor para que tomen 
+bien los requisitos*/
+@media(max-width:450px){
+    nav a{
+        display: none;
+    }
+    .icon{
+        display: block;
+    }
+}
+
+/*computadoras(4k 2k o 8k)*/
+@media(max-width:1920px){
+    .gallery-item{
+        flex-basis: 31%;
+    }
+}
+
+
+/*destktop ,compus o tablest*/
+@media(max-width:1440px){
+    .gallery-item{
+     flex-basis: 31%;
+     padding: 8px; 
+    }
+}
+
+
+/* Tablets modo paisaje y laptops pequeñas*/
+@media(max-width:1280px){}
+
+
+/*Tablets y modo retrato(
+Horizontal) y moviles mas
+grandes*/
+@media(max-width:1024px){}
+
+
+/*Tablest y modo retrato(
+horizontal)
+*/
+@media(max-width:768px){
+}
+
+/*Dispositivos moviles*/
+@media(max-width:480px){
+    .gallery-item{
+        flex-basis: 45%;
+        padding: 10px;
+}}
+
+/*disposittivos moviles muy pequeños
+blackberry*/
+@media(max-width:320px){
+    .gallery-item{
+        flex-basis: 45%;
+        padding: 3px;
+    }
+}
+
+
