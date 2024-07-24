@@ -14,6 +14,7 @@ else{
 edad>18?console.log('Mayor de edad'):console.log('Menor de edad')
 
 //switch solo se puede usar cuando es condiciones ==
+//case son las alternativas que tendriacd ..
 
 let palabra = 'dog'
 switch(palabra){
